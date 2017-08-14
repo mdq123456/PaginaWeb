@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'DESKTOP-CHB4GI9\SQLEXPRESS',
-	'username' => 'administrador',
-	'password' => 'ArMx2017',
-	'database' => 'DBTravelBox',
-	'dbdriver' => 'sqlsrv',
+	'hostname' => 'localhost',
+	'username' => '',
+	'password' => '',
+	'database' => '',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

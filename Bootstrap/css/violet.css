@@ -179,12 +179,12 @@ nav{margin:0;background:none;}.menu li{display:block;margin:0;}.menu li a{backgr
 }
 /* Button 2 */
 .btn-2 {
-	background: #E8645A;
+	background: #ED6A1B;
 	color: #fff;
-	box-shadow: 0 6px #ab3c3c;
-	-webkit-box-shadow: 0 6px #ab3c3c;
-	-moz-box-shadow: 0 6px #ab3c3c;
-	-o-box-shadow: 0 6px #ab3c3c;
+	box-shadow: 0 6px #ED6A1B;
+	-webkit-box-shadow: 0 6px #ED6A1B;
+	-moz-box-shadow: 0 6px #ED6A1B;
+	-o-box-shadow: 0 6px #ED6A1B;
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
@@ -280,7 +280,7 @@ nav{margin:0;background:none;}.menu li{display:block;margin:0;}.menu li a{backgr
 .slider_text h4{
 	text-transform: uppercase;
 	font-size: 34px;
-	color: #DC5925;
+	color: #ED6A1B;
 }
 .slider_text p {
 	font-size: 14px;
@@ -337,7 +337,7 @@ nav{margin:0;background:none;}.menu li{display:block;margin:0;}.menu li a{backgr
 }
 .nav_list li a:hover{
 	text-decoration:none;
-	color: #E2534B;
+	color: #ED6A1B;
 }
 .clients{
 	padding: 20px;
@@ -572,7 +572,7 @@ nav{margin:0;background:none;}.menu li{display:block;margin:0;}.menu li a{backgr
 	text-decoration:none;
 }
 .soc_icons ul li a:hover i{
-	color: #E8645A;
+	color: #ED6A1B;
 }
 /* start about */
 .main_grid1{
@@ -1000,7 +1000,7 @@ h3.style{
 	margin: 8% 0;
 }
 .news_letter form input[type="text"]{
-	font-family: 'roboto_condensedregular';
+	
 	font-weight:100;
 	padding: 10px;
 	display: block;
@@ -1015,7 +1015,7 @@ h3.style{
 .news_letter form input[type="submit"]{
 	float:right;
 	margin-top:15px;
-	font-family: 'roboto_condensedregular';
+	
 	font-size: 14px;
 	color: #FFFFFF !important;
 	padding: 12px 30px;
@@ -1203,7 +1203,7 @@ h3.style{
 	border-color: #E2E2E2;
 }
 .btn{
-	font-family: 'roboto_condensedregular';
+	
 	font-size: 14px;
 	color: #FFFFFF !important;
 	padding: 12px 30px;
@@ -1280,7 +1280,7 @@ h3.style{
 	margin-bottom: 10px;
 }
 .contact-form form input[type="text"], .contact-form form textarea {
-    font-family: 'roboto_condensedregular';
+    
 	margin: 20px 0;
 	box-shadow: none;
 	border: 1px solid #C7C7C7;
@@ -1310,7 +1310,7 @@ h3.style{
 	border: 1px solid #b4b4b4;
 }
 .contact-form form input[type="submit"] {
-    font-family: 'roboto_condensedregular';
+    
 	font-size: 14px;
 	color: #FFFFFF;
 	padding: 12px 30px;

@@ -161,7 +161,7 @@ skins available:
 	height:106px;
 	background:url(skins/charming/bottomOverThumbBg.png) 23px bottom no-repeat;
 	bottom:27px;
-	xleft:0px;
+	left:0px;
 	margin-left:-25px;
 }
 .allinone_carousel.charming .bottomOverThumb img {

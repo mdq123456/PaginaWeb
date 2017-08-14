@@ -11,7 +11,7 @@
 		cursor:pointer;
     }
     #owl-demo .item:hover a{
-    		color:#EA6060;
+    		color:#ED6A1B;
     }
     #owl-demo .item img{
         display: block;
@@ -43,7 +43,7 @@
     -o-transition:0.5s all;
 }
 .item h4 a:hover{
-	color:#EA6060;
+	color:#ED6A1B;
 }
 .item p{
 	font-size: 0.8725em;
