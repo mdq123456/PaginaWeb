@@ -12,8 +12,9 @@
 </div>
 </div>
 
-<br>
+
 <!-- Contact with Map - START -->
+<div id="bannerB">
 <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -73,9 +74,9 @@
                     <div class="panel-body text-center">
                         <h4>Puedes encontrarnos en</h4>
                         <div>
-                        2217 Washington Blvd<br />
-                        Washington DC<br />
-                        #(703) 1234 1234<br />
+                        Santa Fé 1455<br />
+                        Corrientes - Capital<br />
+                        379 4038840 / 379 4706071<br />
                         corrientes@construccionesnea.com<br />
                         </div>
 						<hr />
@@ -87,20 +88,21 @@
         </div>
     </div>
 </div>
+</div>
 
 <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBWeHN_4mlppEIVp0RZegfNpmjSvAPe7Vw'></script>
 
 <script type="text/javascript">
     jQuery(function ($) {
         function init_map1() {
-            var myLocation = new google.maps.LatLng(38.885516, -77.09327200000001);
+            var myLocation = new google.maps.LatLng(-27.4743647,-58.831085299999984);
             var mapOptions = {
                 center: myLocation,
                 zoom: 16
             };
             var marker = new google.maps.Marker({
                 position: myLocation,
-                title: "Property Location"
+                title: "CONSTRUCCIONES NEA"
             });
             var map = new google.maps.Map(document.getElementById("map1"),
                 mapOptions);

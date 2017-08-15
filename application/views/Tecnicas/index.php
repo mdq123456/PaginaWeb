@@ -12,7 +12,7 @@
 </div>
 </div>
 
-<div class="main_bg">
+<div id="bannerB">
 		<div>
 			
 				<div class="container" style="background-color:white">
@@ -21,7 +21,7 @@
 					<div class="row">
 						
 							<h3 class="text-center">CARACTERÍSTICAS TÉCNICAS</h3>
-						
+						<br>
 						<div class="col-xs-10 col-xs-offset-1">
 							<p class="lead">
 								<u>Detalle de Paredes Exteriores</u>: con estructura de madera de 1” x 3” cerrado interiormente con placa de yeso y un dispositivo especial para la colocación de ladrillos de 0,15, Con la provisión de ladrillos, áridos y mano de obra. Altura 2,60.
