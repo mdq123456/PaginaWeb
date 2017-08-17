@@ -42,7 +42,8 @@
 <!-- start circle -->
 
 <!-- Link del footer -->
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <!-- FIN Link del footer -->
 
 <style>
@@ -240,6 +241,25 @@ body{
 }
 /* FIN CSS footer */
 
+/*  */
+h1 span {
+
+color: white;
+
+font: bold 24px/45px ;
+
+letter-spacing: -1px;
+
+background: rgb(0, 0, 0);
+
+background: rgba(25, 76, 133, 0.7);
+
+padding: 10px;
+
+line-height: 75px;
+
+}
+/*  */
 </style>
 
 </head>
@@ -286,21 +306,30 @@ body{
 
 
 
-<footer >
-<div class="footer">
+<footer>
+<br>
 <div class="container">
         <!-- <a href='#'><i class="fa fa-twitch fa-3x fa-fw"></i></a> -->
     <div class="row ">
-        <div class="col-sm-3">
+        <div class="col-sm-3 text-right">
             <span>
-                <a href='https://www.facebook.com/nea.construcciones.1' target="_blank"><i class="fa fa-facebook fa-3x fa-fw"></i></a>
+                <a href='https://www.facebook.com/ConstruccionesNEA' target="_blank">
+                    <i class="fa fa-facebook-official" style="font-size:48px;color:#194C85;"></i>
+                </a>
+            </span>
+            <span>
+                <a href='https://www.instagram.com/ConstruccionesNEA/' target="_blank">
+                    <i class="fa fa-instagram" style="font-size:48px;color:#ED6A1B;"></i>
+                </a>
             </span>
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-9 text-right">
             <p>
                 Argentina, Corrientes - Capital, Santa Fé 1455
                 <br>
                 Contactos: 379 4038840 / 379 4706071
+                <br>
+                corrientes@ConstruccionesNEA.com
                 <br>
                 © 2017 ConstruccionesNEA.com
             </p>
@@ -308,17 +337,16 @@ body{
 
     </div>
         
-
-        
-        <!-- <a href='#'><i class="fa fa-twitter fa-3x fa-fw"></i></a> -->
-        <!-- <a href='#'><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
+       <!-- <a href='#'><i class="fa fa-twitter fa-3x fa-fw"></i></a> 
+        <a href='#'><i class="fa fa-youtube-play fa-3x fa-fw"></i></a>
         <a href='#'><i class="fa fa-rss fa-3x fa-fw"></i></a>
         <a href='#'><i class="fa fa-vine fa-3x fa-fw"></i></a>
         <a href='#'><i class="fa fa-flickr fa-3x fa-fw"></i></a>
-        <a href='#'><i class="fa fa-linkedin fa-3x fa-fw"></i></a> -->
+        <a href='#'><i class="fa fa-linkedin fa-3x fa-fw"></i></a>  -->
+        <!-- Instagram construccionesnea -->
      
 </div>
-</div>
+
 </footer>
 
 </body>

@@ -13,6 +13,8 @@
 </div>
 
 <div id="bannerB">
+<br>
+					<br>
 		<div>
 			
 				<div class="container" style="background-color:white">
@@ -75,7 +77,7 @@
 						</div>
 						<div class="col-xs-8 col-xs-offset-2 col-md-5 col-md-offset-4">
 							<p class="lead">
-								Otros beneficios promocionasles. <a href="<?php echo base_url('Contacto')?>">Click Aquí !</a>
+								Otros beneficios promocionales. <a href="<?php echo base_url('Contacto')?>">Click Aquí !</a>
 							</p>
 						</div>
 					</div>
@@ -84,6 +86,8 @@
 				</div>
 			
 		</div>
+		<br>
+					<br>
 </div>
 
 
