@@ -8,26 +8,39 @@
 		  <li class="active">Contacto</li>
 		</ol>
 		<div class="clearfix"></div>
-	</div>
+    </div>
 </div>
 </div>
 
 
 <!-- Contact with Map - START -->
 <div id="bannerB">
-<br>
+
 <div class="container">
+<?php
+        if (isset($msj)){
+            echo '<br><div class="main_bg">
+                    <div class="row text-center" style="background-color:#F3F3F3;">
+                    <strong>'.$msj.'</strong>
+                  </div></div><br>
+            ';
+        } else{
+            echo '<br>';
+        }
+    ?>
+    
+    
     <div class="row">
         <div class="col-md-6">
             <div class="well well-sm">
-                <form class="form-horizontal" method="post">
+            <form role="form" action="<?php echo base_url('Contacto/envio_post')?>" method="post" class="login-form form-horizontal">
                     <fieldset>
 						<legend class="text-center header">Envíenos su consulta</legend>
                         <div class="form-group">
                             <div class="col-md-10 col-md-offset-1">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                	<input id="fname" name="name" type="text" placeholder="Nombre y apellido" class="form-control">
+                                	<input id="fname" name="nombre" type="text" placeholder="Nombre y apellido" class="form-control">
 								</div>
 							</div>
                         </div>
@@ -36,7 +49,7 @@
                             <div class="col-md-10 col-md-offset-1">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-									   <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+									   <input id="phone" name="tel" type="text" placeholder="Telefono" class="form-control">
 									</div>
                             </div>
                         </div>
@@ -54,11 +67,30 @@
                             <div class="col-md-10 col-md-offset-1">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="glyphicon glyphicon-comment"></i></span>
-                                	<textarea class="form-control" id="message" name="message" placeholder="Escriba su mensaje. El equipo de CONSTRUCCIONES NEA se comunicara con usted a la brevedad." rows="7"></textarea>
+                                	<textarea class="form-control" id="message" name="msj" placeholder="Escriba su mensaje. El equipo de CONSTRUCCIONES NEA se comunicara con usted a la brevedad." rows="7"></textarea>
 								</div>
 							</div>
                         </div>
-                    
+
+                        <?php 
+                            if (isset($Nro) || $Nro != ""){
+                        ?>
+                            <div class="form-group">
+                                <div  class="col-xs-6 col-xs-offset-3">
+                                    <div class="input-group">
+                                        <img class="img-responsive" src="<?php echo base_url('Bootstrap/images/Modelos/NEA('.$Nro.').jpg')?>">
+                                        <input id="Nro" name="Nro" type="hidden" class="form-control" value="<?php echo $Nro?>">
+                                    </div>
+                                </div>
+                            </div>
+                        <?php 
+                          }  else{
+                        ?>
+                            <input id="Nro" name="Nro" type="hidden" class="form-control" value="1">
+                        <?php 
+                          }
+                        ?>
+
                         <div class="form-group">
                             <div class="col-md-12 text-center">
                                 <button type="submit" class="btn btn-primary btn-lg">ENVIAR</button>

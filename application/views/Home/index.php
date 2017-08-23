@@ -101,3 +101,23 @@
 </div>
 <br><br>
 </div>
+
+
+<div class="modal fullscreen-modal fade" id="mostrarmodal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-body">
+			<a href="#" data-dismiss="modal" class="">
+				<img class="img-responsive" src="<?php echo base_url('Bootstrap/images/logo2.png')?>" alt="ConstruccionesNEA">
+			</a>
+	 	</div>  
+      </div>
+   </div>
+</div>
+
+<script>
+   $(document).ready(function()
+   {
+      $("#mostrarmodal").modal("show");
+   });
+</script>

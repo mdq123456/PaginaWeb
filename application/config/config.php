@@ -24,6 +24,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/PaginaWeb/';
+$config['emailGmail'] = 'corrientesconstruccionesnea@gmail.com';
+$config['passGmail'] = 'CNEA1234';
+$config['emailHost'] = 'corrientes@construccionesnea.com';
 
 /*
 |--------------------------------------------------------------------------
